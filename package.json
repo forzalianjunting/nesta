@@ -1,0 +1,44 @@
+{
+  "name": "nesta",
+  "version": "1.0.0",
+  "description": "A mini state container for JavaScript apps",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forzalianjunting/nesta.git"
+  },
+  "keywords": [
+    "state",
+    "immer",
+    "immutable",
+    "put"
+  ],
+  "author": "lianjunting",
+  "license": "ISC",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/forzalianjunting/nesta/issues"
+  },
+  "homepage": "https://github.com/forzalianjunting/nesta#readme",
+  "dependencies": {
+    "immer": "^1.12.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-html": "^5.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}

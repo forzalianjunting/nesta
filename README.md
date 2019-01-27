@@ -1,2 +1,2 @@
 # nesta
-A state manager for JavaScript apps
+A mini state container for JavaScript apps
