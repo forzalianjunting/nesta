@@ -44,5 +44,8 @@ const currentState = store.getState()
 
 console.log('prevState: ', prevState)
 console.log('currentState: ', currentState)
-console.log('prevState === currentState: ,' prevState === currentState)
+console.log('prevState === currentState: ,' prevState === currentState) // false
 ```
+
+## 在 React 中使用
+因为 nesta 并不依赖前端框架，如果你想在 react 中使用，请见 [react-nesta](https://github.com/forzalianjunting/react-nesta)
