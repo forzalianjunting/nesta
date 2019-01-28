@@ -16,7 +16,7 @@ npm install nesta
 yarn add nesta
 ```
 
-## 🔨 试例
+## 🔨 示例
 ```javascript
 import { createStore } from 'nesta'
 
