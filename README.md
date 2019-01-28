@@ -31,10 +31,18 @@ const store = createStore({
   }
 })
 
+const prevState = store.getState()
+
 store.put(state => {
   state.data.pageData.push({
     id: 22,
     name: 'kaka'
   })
 })
+
+const currentState = store.getState()
+
+console.log('prevState: ', prevState)
+console.log('currentState: ', currentState)
+console.log('prevState === currentState: ,' prevState === currentState)
 ```
