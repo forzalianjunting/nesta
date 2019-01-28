@@ -1,6 +1,6 @@
 {
   "name": "nesta",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A mini state container for JavaScript apps",
   "main": "lib/nesta.js",
   "scripts": {

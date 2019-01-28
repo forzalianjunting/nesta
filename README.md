@@ -18,7 +18,7 @@ yarn add nesta
 
 ## 🔨 试例
 ```javascript
-import createStore from 'nesta'
+import { createStore } from 'nesta'
 
 const store = createStore({
   data: {
